@@ -27,10 +27,10 @@ const Footer = () => {
                 &copy; {new Date().getFullYear()} Melkamu.All rights reserved.
             </p>
             <div className='flex space-x-4 my-4 md:my-0'>
-                <a href="https://t.me/melka2112" className='text-gray-400 hover:text-white'>
+                <a href="#" className='text-gray-400 hover:text-white'>
                     <FaTelegram />
                 </a>
-                <a href="https://instagram.com/melka_2112" className='text-gray-400 hover:text-white'>
+                <a href="#" className='text-gray-400 hover:text-white'>
                     <FaInstagram className='text-gray-400 hover:text-white'/>
                 </a>
                 <a href="https://linkedin.com/in/melkamu-ayalew-005589359" className='text-gray-400 hover:text-white'>
