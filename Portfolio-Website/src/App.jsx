@@ -3,22 +3,26 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
-import Services from './components/Services'
+import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contacts from './components/Contacts'
 import Footer from './components/Footer'
-function App() {
+
+
+
+  const App = () => {
+    const [isDarkMode, setIsDarkMode] = useState(false);
 
   return (
-    <>
-      <Navbar />
-        <Home />
-        <About />
-        <Services />
-        <Projects />
-        <Contacts />
-        <Footer />
-    </>
+    <div className={isDarkMode ? 'bg-gray-900 text-white min-h-screen' : 'bg-white text-black min-h-screen'}>
+      <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}/>
+        <Home isDarkMode={isDarkMode}/>
+        <About isDarkMode={isDarkMode}/>
+        <Skills  isDarkMode={isDarkMode}/>
+        <Projects  isDarkMode={isDarkMode}/>
+        <Contacts  isDarkMode={isDarkMode}/>
+        <Footer  isDarkMode={isDarkMode}/>
+    </div>
   )
 }
 

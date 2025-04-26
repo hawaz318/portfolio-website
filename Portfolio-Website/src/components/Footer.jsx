@@ -1,9 +1,11 @@
 import React from 'react'
 import { FaTelegram,FaInstagram,FaGithub, FaLinkedin } from 'react-icons/fa'
 
-const Footer = () => {
+const Footer = ({isDarkMode}) => {
   return (
-    <footer className='bg-blue-900 text-white py-8'>
+    <footer className={`py-20 transition-colors duration-500 ${
+        isDarkMode ? 'bg-gray-800 text-white' : 'bg-blue-900 text-black'
+      }`}>
         <div className='container mx-auto px-8 md:px_16 lg:px-24'>
             <div className="flex flex-col md:flex-row md:space-x-12 itens-center mb-4">
              <div className='flex-1 mb-4 md:mb-0'>
