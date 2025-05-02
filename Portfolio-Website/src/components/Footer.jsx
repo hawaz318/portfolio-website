@@ -38,7 +38,7 @@ const Footer = ({isDarkMode}) => {
                 <a href="https://linkedin.com/in/melkamu-ayalew-005589359" className='text-gray-400 hover:text-white'>
                     <FaLinkedin />
                 </a>
-                <a href="https://github.com/melkacode" className='text-gray-400 hover:text-white'>
+                <a href="https://github.com/hawaz318" className='text-gray-400 hover:text-white'>
                     <FaGithub />
                 </a>
             </div>
