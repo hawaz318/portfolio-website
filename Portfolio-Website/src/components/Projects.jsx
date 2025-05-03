@@ -40,16 +40,12 @@ const Projects = ({ isDarkMode }) => {
               <p className="mt-2 text-gray-300">{project.description}</p>
 
               <a
-                href={project.link}
+                href= "http://apple-m.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`mt-4 inline-block ${
-                project.link === "#" 
-                ? "cursor-not-allowed text-gray-400" 
-                : "text-yellow-400 hover:text-blue-500"
-           }`}
+                className="mt-4 inline-block  text-yellow-400 hover:text-blue-500"
      >
-  {project.link === "#" ? "Coming Soon" : "View Project"}
+  view project
 </a>
 
             </div>
