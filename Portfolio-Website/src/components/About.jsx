@@ -9,7 +9,7 @@ const About = ({ isDarkMode}) => {
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <h2  className="text-4xl font-bold text-center mb-12">About Me</h2>
       <div className="flex flex-col md:flex-row items:center md:space-x-12">
-      <img  src={image3} alt='' className="h-100 w-60 rounded object-cover mb-8 md:mb-0"/>
+      <img  src={image3} alt='' className="h-120 w-80 rounded object-cover mb-8 md:mb-0"/>
      <div className="flex-1">
       <p className="text-lg mb-8 px-4">
         I am a passinate full stuck developer with focus on bulding modern 
