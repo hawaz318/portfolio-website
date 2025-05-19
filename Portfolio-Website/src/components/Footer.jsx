@@ -29,7 +29,7 @@ const Footer = ({isDarkMode}) => {
                 &copy; {new Date().getFullYear()} Melkamu.All rights reserved.
             </p>
             <div className='flex space-x-4 my-4 md:my-0'>
-                <a href="#" className='text-gray-400 hover:text-white'>
+                <a href="https://t.me/Melka2112" className='text-gray-400 hover:text-white'>
                     <FaTelegram />
                 </a>
                 <a href="#" className='text-gray-400 hover:text-white'>

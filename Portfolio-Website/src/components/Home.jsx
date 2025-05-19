@@ -15,7 +15,7 @@ const Home = ({ isDarkMode}) => {
       </h1>
       <p className='mt-4 text-lg text-gray300'>
         I spacialized in bulding modern and respponsive website
-        using react and javascript
+        using React, Javascript, NodeJs, PHP
       </p>
       <div className='mt-8 space-x-4'>
       <button className='bg-gradient-to-r from-green-400 to-blue-500 text-white
